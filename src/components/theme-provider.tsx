@@ -20,7 +20,7 @@ export default function ThemeProvider() {
     return (
         <button
             onClick={toggleTheme}
-            className="p-2 border rounded-md bg-neutral-300 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 focus:outline-none"
+            className="p-2 border rounded-lg border-border text-foreground bg-background focus:outline-none"
         >
             {theme === "dark" ? <Sun /> : <Moon />}
         </button>
