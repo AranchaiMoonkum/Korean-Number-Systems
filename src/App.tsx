@@ -255,7 +255,7 @@ const NumberSystem: React.FC = () => {
 
 const MenuBar: React.FC = () => {
     return (
-        <section className="flex justify-between content-center w-full pb-2">
+        <section className="flex justify-between items-center w-full pb-2">
             <ThemeProvider />
             <LanguageSwitcher />
         </section>
